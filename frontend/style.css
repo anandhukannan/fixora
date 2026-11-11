@@ -157,3 +157,12 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+a.service-card {
+  display: block;
+  color: inherit;
+}
+
+a.service-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
